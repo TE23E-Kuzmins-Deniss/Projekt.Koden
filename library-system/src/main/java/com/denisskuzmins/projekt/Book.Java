@@ -5,7 +5,7 @@ public class Book extends LibraryItem {
     private String genre;
     private int pages;
 
-public Book(String id, String title, String author, String genre, int pages, boolean isAvailable) {
+public Book(int id, String title, String author, String genre, int pages, boolean isAvailable) {
         super(id, title, isAvailable);
     
         this.author = author;
